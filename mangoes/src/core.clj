@@ -36,7 +36,7 @@
     [(cond
       (> (mangoes-consumed [f]) mangoes) 0
       (<= (mangoes-consumed tups) mangoes) (count tups)
-      :else (bisect [f] (subvec tups 0 (quot (count tups) 2))))]))
+      :else (bisect [f]))]))
 
 
 ; Uncomment the lines below to run on hackerrank
